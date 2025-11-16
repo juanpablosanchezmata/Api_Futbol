@@ -1,0 +1,17 @@
+# Archivo .gitignore
+# Entorno Virtual
+.venv/
+venv/
+env/
+
+# Archivos de Python generados
+__pycache__/
+*.pyc
+*.pyo
+
+# Base de datos local (si usas sqlite o archivos de db)
+*.db
+*.sqlite
+
+# Variables de entorno (¡CRUCIAL por seguridad!)
+.env
